@@ -1,3 +1,5 @@
+
+
 .fortune-generator {
     display: flex; 
     gap: 10px; 
@@ -22,18 +24,21 @@
     cursor:crosshair;             
   } 
   .red {
-    background-color: red;   
+    background-color: rgb(255, 162, 162);   
   }
   
   .blue {
-    background-color: blue;   
+    background-color: rgb(182, 182, 255);   
   }
   
   .green {
-    background-color: green;  
+    background-color: rgb(154, 252, 154);  
   }
   
   .yellow {
-    background-color: yellow; 
+    background-color: rgb(255, 255, 157); 
   }  
+
+
+
   

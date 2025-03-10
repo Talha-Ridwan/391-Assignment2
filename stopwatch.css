@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.watch {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:nth-child(1) { background: #28a745; color: white; } /* Start button */
+button:nth-child(2) { background: #dc3545; color: white; } /* Stop button */
+button:nth-child(3) { background: #ffc107; color: black; } /* Reset button */
+
+button:hover {
+    opacity: 0.8;
+}
